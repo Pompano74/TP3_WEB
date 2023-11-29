@@ -34,3 +34,39 @@ ul{
     list-style-type: none;
     padding: 0;
 }
+.youtube{
+    display: flex;
+    transform: translate(50%, -214%);
+    border-radius: 5px;
+}
+.VideoLocal{
+    display: flex;
+    transform: translate(50%, -200%);
+    border-radius: 5px;
+}
+.AudioLocal{
+    display: flex;
+    transform: translate(100%, -2415%);
+    border-radius: 5px;
+    width: 920px;
+}
+.Acceuille{
+    display: flex;
+    background-color: rgb(255, 255, 0);
+    width:970px;
+    height: 560px;
+    padding: 15px;
+    transform: translate(87%, -219%);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    align-items: center top;
+}
+.TextAcceuille{
+    display: flex;
+    background-color: rgb(204, 204, 0);
+    padding: 15px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 38.5px;
+}
