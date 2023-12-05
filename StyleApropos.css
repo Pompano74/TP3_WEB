@@ -30,6 +30,10 @@ nav{
     font-size: 40px;
     box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+.LienFlexBox{
+    text-decoration: none;
+    color: inherit;
+}
 ul{
     list-style-type: none;
     padding: 0;
