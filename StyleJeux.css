@@ -2,6 +2,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-family: 'K2D', sans-serif;
     background-color: rgb(102, 102, 102);
+    background-image: ;
 }
 header{
     display: flex;
@@ -37,4 +38,56 @@ nav{
 ul{
     list-style-type: none;
     padding: 0;
+}
+main{
+
+}
+.populaire{
+    display: flex;
+    width: 1150px;
+    height: 800px;
+    position: relative;
+    left: 400px;
+    top:-790px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+content{
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    width: 1700px;
+    height: 900px;
+    margin-top: 70px;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    position: relative;
+    left: 50px;
+    top: -600px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne lorsqu'ils ne tiennent plus dans le conteneur */
+    justify-content: space-between; /* Répartit les éléments à l'intérieur du conteneur avec un espacement égal */
+    background-color: rgb(37, 37, 37);
+    width: 1700px;
+    height: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    position: relative;
+    left: 50px;
+    top: -600px;
+    margin-left: 2px;
+    align-items: center;
+}
+
+.gallery img {
+    width: calc(20% - 10px); /* Calcule la largeur pour occuper 20% de la largeur du conteneur avec un espacement de 10px entre les images */
+    margin-bottom: 10px; /* Espacement entre les lignes d'images */
+}
+.textePopulaire{
+position: relative;
+top: -760px;
+left: 850px;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
 }
