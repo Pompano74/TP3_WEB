@@ -20,7 +20,10 @@
         </ul>
     </nav>
     <div class="container">
+
+        <!--Début du formulaire-->
         <form class="formulaire">
+            <!--Drop Down langue-->
             <label for="langue"><h3>Langue</h3> </label>
             <select id="langue" name="langue">
                 <option value="francais">Français</option>
@@ -28,14 +31,15 @@
                 <option value="Die deutsche Sprache">Die deutsche Sprache</option>
                 <option value="espanola">Española</option>
             </select>
-
+            <!--Nom du visiteurs-->
             <label for="name"><h3>Nom</h3> </label>
             <input type="text" id="name" name="name" required>
 
+            <!--email du vesiteur-->
             <label for="email"><h3>E-mail</h3> </label>
-            <input type="email" id="email" name="email" required>
+            <input class="email" type="email" id="email" name="email" required>
 
-            <label for="message"><h3>Message pour nous aider</h3> </label>
+            <label for="message"><h3>Message/Question pour nous </h3> </label>
             <textarea id="message" name="message" rows="4" required></textarea>
 
             <div class="age-group">
