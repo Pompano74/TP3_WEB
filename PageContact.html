@@ -3,23 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PageContact</title>
+    <title>Page Contact</title>
     <link rel="stylesheet" href="StyleContact.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=K2D:wght@400;700&display=swap">
 </head>
 <body>
     <header>
-        <h1 class="TitreTop"><Strong>MARVELOUS GAMES</Strong>.com</h1>
+        <h1 class="TitreTop"><strong>MARVELOUS GAMES</strong>.com</h1>
     </header>
     <nav>
-        <h2>
-            <ul>
-                <li class="ItemNav"><a href="PageAcceuil.html" class="LienFlexBox">Acceuil</a></li>
-                <li class="ItemNav"><a href="PageJeux.html" class="LienFlexBox">Jeux</a></li>
-                <li class="ItemNav"><a href="PageApropos.html" class="LienFlexBox">À propos</a></li>
-                <li class="ItemNav"><a href="PageContact.html" class="LienFlexBox">Contact</a></li>
-            </ul>
-        </h2>
+        <ul>
+            <li class="ItemNav"><a href="PageAcceuil.html" class="LienFlexBox">Accueil</a></li>
+            <li class="ItemNav"><a href="PageJeux.html" class="LienFlexBox">Jeux</a></li>
+            <li class="ItemNav"><a href="PageApropos.html" class="LienFlexBox">À propos</a></li>
+            <li class="ItemNav"><a href="PageContact.html" class="LienFlexBox">Contact</a></li>
+        </ul>
     </nav>
+    <div class="container">
+        <form class="formulaire">
+            <label for="langue"><h3>Langue</h3> </label>
+            <select id="langue" name="langue">
+                <option value="francais">Français</option>
+                <option value="english">English</option>
+                <option value="Die deutsche Sprache">Die deutsche Sprache</option>
+                <option value="espanola">Española</option>
+            </select>
+
+            <label for="name"><h3>Nom</h3> </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"><h3>E-mail</h3> </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message"><h3>Message pour nous aider</h3> </label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <div class="age-group">
+                <label><h3>Groupe d'âge</h3> </label>
+                <input type="radio" id="age0-12" name="fav_age" value="0-12">
+                <label for="age0-12">0-12 ans</label>
+                <input type="radio" id="age13-30" name="fav_age" value="13-30">
+                <label for="age13-30">13-30 ans</label>
+                <input type="radio" id="age30plus" name="fav_age" value="30+">
+                <label for="age30plus">30+ ans</label>
+            </div>
+
+            <div class="source-group">
+                <label><h3>Comment avez-vous entendu parler de nous ?</h3></label>
+                <input type="checkbox" id="socialMedia" name="source" value="socialMedia">
+                <label for="socialMedia">Sur les réseaux sociaux</label>
+                <input type="checkbox" id="friend" name="source" value="friend">
+                <label for="friend">D'une connaissance</label>
+                <input type="checkbox" id="neverHeard" name="source" value="neverHeard">
+                <label for="neverHeard">Vous n'avez jamais entendu parler de nous ;(</label>
+            </div>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
 </body>
 </html>

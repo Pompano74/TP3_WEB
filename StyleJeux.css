@@ -74,10 +74,11 @@ content{
     height: 900px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     position: relative;
-    left: 50px;
-    top: -600px;
+    left: 150px;
+    top: -750px;
     margin-left: 2px;
     align-items: center;
+
 }
 
 .gallery img {

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-formulaire.css">  
+    <title>Formulaire d'Évaluation de Concert</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Évaluation du Concert</h1>
+            <!--Début du formulaire-->
+            <form action="" method="post">
+                <!-- Coordonnées de la personne sondée-->
+                <fieldset>
+                    <legend>Mes coordonnées</legend>                      
+                    <div class="form-row">
+                        <label for="firstname">Prénom *:</label>
+                        <input type="text" id="firstname" name="firstname" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="lastname">Nom *:</label>
+                        <input type="text" id="lastname" name="lastname" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Courriel *:</label>
+                        <input type="email" id="email" name="email" placeholder="name@domain.com" required>
+                    </div>
+                </fieldset>
+                <!-- Détails du concert évalué -->
+                <fieldset>
+                    <legend>Concert</legend>                      
+                    <div class="form-row">
+                        <label for="nomArtiste">Nom de l'artiste / groupe * :</label>
+                        <input type="text" id="nomArtiste" name="nomArtiste" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="lieu">Lieu du concert :</label>
+                        <input type="text" id="lieu" name="lieu" />
+                    </div>
+                    <div class="form-row">
+                        <label for="date">Date du concert * :</label>
+                        <input type="date" id="date" name="date" required />
+                    </div>
+                </fieldset>
+                <!-- Note et commentaires pour concert évalué -->
+                <fieldset>
+                    <legend>Appréciation</legend>
+                    <div class="form-row">
+                        <label for="note">Note globale :</label>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="note" value="5"><label for="star5"></label>
+                            <input type="radio" id="star4" name="note" value="4"><label for="star4"></label>
+                            <input type="radio" id="star3" name="note" value="3"><label for="star3"></label>
+                            <input type="radio" id="star2" name="note" value="2"><label for="star2"></label>
+                            <input type="radio" id="star1" name="note" value="1"><label for="star1"></label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="commentaire">Commentaire :</label>
+                        <textarea id="commentaire" name="commentaire" class="comment" required></textarea>
+                    </div>
+                </fieldset>
+                <!--bouton d'envoi du formulaire-->
+                <div class="form-row">
+                    <input type="submit" class="submit-btn" value="Envoyer l'évaluation" />
+                    <input type="reset" class="reset-btn" value="Effacer" />
+                </div>        
+            </form>
+            <!--Fin du formulaire-->
+        </div>
+    </body>
+</html>
