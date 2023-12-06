@@ -61,28 +61,24 @@ ul {
 }
 
 .formulaire {
-    
-}
-
-form {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 800px;
     background-color: rgb(201, 181, 4);
     padding: 20px;
-    border: rgb(255, 255, 0) solid 5px;
+    border: 5px solid rgb(255, 255, 0);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-    margin: 20px auto; /* Centre le formulaire horizontalement */
+    margin: -700px auto;
+    
+
 }
 
 label {
     margin-bottom: 8px;
 }
 
-input{
-    padding: 100px;
-}
+input,
 textarea {
     width: 100%;
     padding: 8px;
@@ -104,6 +100,7 @@ button {
 button:hover {
     background-color: #45a049;
 }
-.email{
+
+.email {
     height: 30px;
 }
