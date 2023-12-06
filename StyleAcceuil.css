@@ -38,39 +38,13 @@ ul{
     list-style-type: none;
     padding: 0;
 }
-.TxtVideo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 0);
-    border-radius: 5px;
-    margin: -20px;
-    transform: translate(250%, -2150%);
-    width: 10%;
-}
-.youtube{
-    display: flex;
-    transform: translate(50%, -201%);
-    border-radius: 5px;
-}
-.VideoLocal{
-    display: flex;
-    transform: translate(50%, -200%);
-    border-radius: 5px;
-}
-.AudioLocal{
-    display: flex;
-    transform: translate(100%, -2415%);
-    border-radius: 5px;
-    width: 920px;
-}
 .Acceuille{
     display: flex;
     background-color: rgb(255, 255, 0);
-    width:970px;
-    height: 560px;
+    width:1490px;
+    height: 645px;
     padding: 15px;
-    transform: translate(87%, -216%);
+    transform: translate(20%, -100%);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     align-items: center top;
@@ -79,8 +53,44 @@ ul{
     display: flex;
     background-color: rgb(204, 204, 0);
     padding: 15px;
-    height: 450px;
+    height: 470px;
+    width: 355px;
     border-radius: 5px;
     box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
-    font-size: 38.5px;
+    font-size: 35px;
+}
+.MascotteSite{
+
+}
+.TxtVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -20px;
+    transform: translate(630%, -4160%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    width: 10%;
+}
+.youtube{
+    display: flex;
+    transform: translate(170%, -350%);
+    border-radius: 5px;
+    width: 450px;
+    height: 350px;
+}
+.VideoLocal{
+    display: flex;
+    transform: translate(290%, -446%);
+    border-radius: 5px;
+    width: 450px;
+    height: 353.5px;
+}
+.AudioLocal{
+    display: flex;
+    transform: translate(100%, -2760%);
+    border-radius: 5px;
+    width: 340px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
 }
